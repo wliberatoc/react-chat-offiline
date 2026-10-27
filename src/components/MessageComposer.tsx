@@ -1,4 +1,4 @@
-import type { FormEvent } from 'react';
+import type { SubmitEvent } from 'react';
 import { useLayoutEffect, useRef, useState } from 'react';
 
 import type { MessageComposerProps } from '../types/components';
@@ -28,7 +28,7 @@ export function MessageComposer({ onSend }: MessageComposerProps) {
     );
   }
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  function handleSubmit(event: SubmitEvent<HTMLFormElement>) {
     event.preventDefault();
 
     const content = draft.trim();
