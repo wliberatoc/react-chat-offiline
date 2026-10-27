@@ -157,21 +157,21 @@ O state deve permanecer no ancestral comum mais próximo dos componentes que o u
 
 **Resultado esperado:** estrutura pronta para implementar a interface sem erros de tipagem.
 
-### Tarefa 2 — Construir o layout principal
+### Tarefa 2 — Construir o layout principal ✅
 
-- Configurar a altura mínima da aplicação e o fundo marrom claro.
-- Criar o contêiner central com largura máxima `2xl`.
-- Reservar as áreas do histórico e do compositor.
-- Garantir espaçamento inferior para o card fixo.
+- [x] Configurar a altura mínima da aplicação e o fundo marrom claro.
+- [x] Criar o contêiner central com largura máxima `2xl`.
+- [x] Reservar as áreas do histórico e do compositor.
+- [x] Garantir espaçamento inferior para o card fixo.
 
 **Resultado esperado:** esqueleto responsivo da tela, ainda sem interações completas.
 
-### Tarefa 3 — Implementar o histórico de mensagens
+### Tarefa 3 — Implementar o histórico de mensagens ✅
 
-- Criar o state de mensagens com a mensagem inicial de exemplo.
-- Implementar `MessageList` e `MessageBubble`.
-- Aplicar alinhamento à esquerda para robô e à direita para usuário.
-- Preservar quebras de linha e tratar textos longos.
+- [x] Criar o state de mensagens com a mensagem inicial de exemplo.
+- [x] Implementar `MessageList` e `MessageBubble`.
+- [x] Aplicar alinhamento à esquerda para robô e à direita para usuário.
+- [x] Preservar quebras de linha e tratar textos longos.
 
 **Resultado esperado:** histórico inicial renderizado e visualmente diferenciado por autor.
 
