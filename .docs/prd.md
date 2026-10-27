@@ -175,21 +175,21 @@ O state deve permanecer no ancestral comum mais próximo dos componentes que o u
 
 **Resultado esperado:** histórico inicial renderizado e visualmente diferenciado por autor.
 
-### Tarefa 4 — Implementar o compositor autoajustável
+### Tarefa 4 — Implementar o compositor autoajustável ✅
 
-- Criar o campo controlado e o state do rascunho.
-- Ajustar automaticamente a altura do campo até um limite definido.
-- Implementar o card branco fixo e seus estados visuais básicos.
-- Garantir nome acessível e foco visível.
+- [x] Criar o campo controlado e o state do rascunho.
+- [x] Ajustar automaticamente a altura do campo até um limite definido.
+- [x] Implementar o card branco fixo e seus estados visuais básicos.
+- [x] Garantir nome acessível e foco visível.
 
 **Resultado esperado:** texto simples e multilinha pode ser digitado sem envio.
 
-### Tarefa 5 — Implementar a seleção do autor
+### Tarefa 5 — Implementar a seleção do autor ✅
 
-- Criar o state do autor com valor inicial `user`.
-- Implementar o toggle acessível no lado esquerdo do card.
-- Exibir texto ou rótulo que identifique o modo atual.
-- Aplicar borda roxa ao card no modo robô.
+- [x] Criar o state do autor com valor inicial `user`.
+- [x] Implementar o toggle acessível no lado esquerdo do card.
+- [x] Exibir texto ou rótulo que identifique o modo atual.
+- [x] Aplicar borda roxa ao card no modo robô.
 
 **Resultado esperado:** autor da próxima mensagem pode ser alternado com feedback claro.
 
