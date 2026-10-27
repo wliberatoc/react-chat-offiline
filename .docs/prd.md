@@ -193,13 +193,13 @@ O state deve permanecer no ancestral comum mais próximo dos componentes que o u
 
 **Resultado esperado:** autor da próxima mensagem pode ser alternado com feedback claro.
 
-### Tarefa 6 — Implementar o envio
+### Tarefa 6 — Implementar o envio ✅
 
-- Criar uma única função de envio reutilizada pelo botão e pelo teclado.
-- Impedir mensagens vazias ou compostas apenas por espaços.
-- Gerar identificador único para cada mensagem.
-- Inserir a mensagem com o autor selecionado, limpar o rascunho e restaurar o foco.
-- Manter o autor selecionado após o envio para facilitar mensagens consecutivas do mesmo lado.
+- [x] Criar uma única função de envio reutilizada pelo botão e pelo teclado.
+- [x] Impedir mensagens vazias ou compostas apenas por espaços.
+- [x] Gerar identificador único para cada mensagem.
+- [x] Inserir a mensagem com o autor selecionado, limpar o rascunho e restaurar o foco.
+- [x] Manter o autor selecionado após o envio para facilitar mensagens consecutivas do mesmo lado.
 
 **Resultado esperado:** mensagens são adicionadas corretamente por clique ou `Enter`.
 

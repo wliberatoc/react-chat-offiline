@@ -1,5 +1,4 @@
-import type { Message } from './message';
-import type { MessageAuthor } from './message';
+import type { Message, MessageAuthor } from './message';
 
 export type AuthorToggleProps = {
   selectedAuthor: MessageAuthor;
@@ -12,4 +11,8 @@ export type MessageListProps = {
 
 export type MessageBubbleProps = {
   message: Message;
+};
+
+export type MessageComposerProps = {
+  onSend: (content: string, author: MessageAuthor) => void;
 };
