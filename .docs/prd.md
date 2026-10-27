@@ -149,11 +149,11 @@ O state deve permanecer no ancestral comum mais próximo dos componentes que o u
 
 ## 11. Plano progressivo de implementação
 
-### Tarefa 1 — Preparar tipos e estrutura
+### Tarefa 1 — Preparar tipos e estrutura ✅
 
-- Criar `src/types` e declarar `MessageAuthor` e `Message` usando `type`.
-- Criar os arquivos-base necessários em `src/components`.
-- Definir a mensagem inicial de demonstração.
+- [x] Criar `src/types` e declarar `MessageAuthor` e `Message` usando `type`.
+- [x] Criar os arquivos-base necessários em `src/components`.
+- [x] Definir a mensagem inicial de demonstração.
 
 **Resultado esperado:** estrutura pronta para implementar a interface sem erros de tipagem.
 
